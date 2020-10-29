@@ -27,7 +27,6 @@ MainWindow::~MainWindow()
 
 void MainWindow::init_UI()
 {
-    this->setWindowFlags(Qt::FramelessWindowHint);
     QPalette palette;
     palette.setBrush(QPalette::Background,QBrush(Qt::gray));
     //this->setPalette(palette);
